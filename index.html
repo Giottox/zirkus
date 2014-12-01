@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zirkus</title>
+    <meta keyword="zirkus, landing page, responsive design">
+    <meta description="This is landing page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="stylesheet" href="styles/grid.css"> --> <!-- Grid. No use this in Zirkus, i have grid-plus.css below -->
+    <link rel="stylesheet" href="styles/typography.css">
+    <link rel="stylesheet" href="styles/button.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/responsiv-utillites.css">
+    <link rel="stylesheet" href="styles/starwarsicon.css">
+    <link href="styles/scrolling-nav.css" rel="stylesheet"> 
+    <link href="styles/grid-plus.css" rel="stylesheet"> <!-- I Use this only for navbar -->
+    <!-- Fonts -->
+    <link rel="stylesheet" href="styles/font-awesome/font-awesome.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-custom navbar-color navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand giotto-brand page-scroll" href="#page-top">
+                  <span class="light">Zirkus</span>
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav ul-nav navbar-nav">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>  
+    <!-- Navbar End -->
+    <!-- Header Start -->
+    <header class="header-media text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 head-text">
+                   <img class="img-header" src="images/profile.png">
+                   <div class="intro-text">
+                      <h1>Start Zirkus</h1>
+                      <hr class="star-icon">
+                      <p>Junior Frontend-Developer. I want more practice.</p>
+                   </div> 
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Section 1 Start -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 portfolio-h1 text-center">
+                    <h1>Portfolio</h1>
+                    <hr class="star-icon-1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/backgrounds/cabin.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/backgrounds/cake.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/backgrounds/circus.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item portfolio-margin">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/backgrounds/game.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item portfolio-margin">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/backgrounds/safe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item portfolio-margin">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/backgrounds/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 1 End -->
+    <!-- Section 2 Start -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>About</h1>
+                    <hr class="star-icon">
+                </div>
+            </div>
+            <div class="row text-left">
+                <div class="col-lg-4 col-lg-offset-2 colums">
+                    <p>
+                        Zirkus  theme created by Giotto. Thank you very much for providing Start Bootstrap template. I really appreciate it. But I still need to study a lot, so that this template is implemented as not all I wanted.
+                        And it's just fish the text and nothing more. La la la la :)
+                    </p>
+                </div>
+                <div class="col-lg-4 colums">
+                    <p>
+                      This template was created for my portfolio. Others works you can see <a href="https://github.com/Giottox" target="_blank">here</a> Check out! Do not forget to visit! Okay? I'll check.
+                      And it's just fish the text and nothing more. La la la la :)
+                    </p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="my-button button-margin">
+                        <i class="fa fa-download"></i> Download Theme
+                    </a>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Contact Me</h1>
+                    <hr class="star-icon-1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form>
+                        <div class="row control-group">
+                            <div class="col-xs-12 border-top-name floating-label">
+                              <input type="text" placeholder="Name" class="form-control">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form id="contact">
+                        <div class="row control-group">
+                            <div class="col-xs-12 form-group floating-label">
+                              <input type="email" placeholder="Email" class="form-control">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form id="contact">
+                        <div class="row control-group">
+                            <div class="col-xs-12 form-group floating-label">
+                              <input type="text" placeholder="Phone Number" class="form-control">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form id="contact">
+                        <div class="row control-group">
+                            <div class="col-xs-12 form-group floating-label">
+                              <textarea type="text" rows="5" placeholder="Message" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                          <div class="form-group col-xs-12">
+                            <button type="submit" class="my-submit-button">Send</button>
+                         </div>
+                        </div>                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 2 End -->
+    <!-- Section 3 Start -->
+    <footer class="links text-center">
+      <div class="footer-above">  
+        <div class="container">
+          <div class="row">
+            <div class="footer-col col-md-4">
+                <h3 class="location-h3">
+                  Location
+                </h3>
+                <p class="location-p">
+                  3481 Melrose Place
+                  Beverly Hills, CA 90210
+                </p>
+            </div>
+            <div class="footer-col col-md-4">
+                <h3 class="location-h3">
+                  Around The Web
+                </h3>
+                <ul class="list-inline">
+                    <li>
+                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook icons-fonts"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus icons-fonts"></i></a></li>
+                    <li>
+                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter icons-fonts"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin icons-fonts"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble icons-fonts"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col col-md-4">
+                <h3 class="location-h3">
+                  About Zirkus
+                </h3>
+                <p class="location-p">
+                Zirkus is a free use, open sourse.
+                reCreated by <a href="https://github.com/Giottox" class="location-a" target="_blank">Giotto</a>
+                </p>
+            </div>                        
+          </div>
+        </div>
+      </div>
+      <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; Giotto</p>    
+                    </div>   
+                </div>
+            </div>
+        </div>  
+    </footer>
+    <!-- Section 3 End -->
+        <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/zirkus.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>  
+</body>
+</html>
